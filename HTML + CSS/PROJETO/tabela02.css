@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(to right, #5853c7, #bb54c1);
+    display: flex; /*Define a estrutura FLEX para BOX (caixas)*/
+    justify-content: center; /* Centraliza elementos horizontamente*/
+    align-items: center; /* Centraliza elementos na vertical*/
+    min-height: 100vh; /* Garante que o body ocupe a altura total da tela.*/
+
+}
+
+.linha{
+    background-color: black;
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    gap: 10px;
+    line-height: 40px;
+    border-bottom: solid 2px #d8d8d8;
+     border-spacing: 0;
+}
+
+table{
+    width: 80%;
+}
